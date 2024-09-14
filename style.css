@@ -1,0 +1,121 @@
+body,
+.resume-container {
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+  margin: 8px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  font-weight: bolder;
+}
+
+h1 {
+  color: #6a5acd;
+  margin: 0;
+  font-size: 40px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin-top: 0%;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.container,
+.resume-container {
+  width: 850px;
+  margin: auto;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: white;
+  background-color: #6a5acd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+}
+
+p,
+.resume-container {
+  padding-left: 10px;
+}
+
+div.resume-container {
+  padding-left: 30px;
+}
+
+div {
+  padding: 10px;
+}
+
+#gender {
+  margin-bottom: 12px;
+}
+
+label {
+  font-weight: 550;
+  font-size: 17px;
+}
+
+.input {
+  width: 800px;
+  margin-top: 5px;
+  padding: 12px;
+  font-size: 16px;
+  border: solid black 1.75px;
+  border-radius: 5px;
+}
+
+#toggleButton {
+  margin: 50px 0px 25px 0px;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  background-color: #6a5acd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  margin-top: 25px;
+}
+
+#button {
+  text-align: center;
+}
+
+button:hover {
+  background-color: rgb(66, 56, 129);
+  transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+  .container,
+  .resume-container {
+    width: auto;
+    padding: 10px;
+  }
+
+  div.resume-container {
+    padding-left: 10px;
+  }
+
+  .input {
+    display: block;
+    width: auto;
+  }
+}
